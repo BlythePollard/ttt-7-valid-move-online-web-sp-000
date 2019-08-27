@@ -1,6 +1,8 @@
 # code your #valid_move? method here
 def valid_move?(board, user_input)
-  if position_taken?(board, user_input) 
+  if user_input != user_input.clamp(0,8)
+    false
+  else position_taken?(board, user_input) 
 end 
 end
 
