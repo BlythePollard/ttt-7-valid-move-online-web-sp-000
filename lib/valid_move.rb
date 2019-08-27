@@ -14,3 +14,5 @@ end
 # re-define your #position_taken? method here, so that you can use it in the #valid_move? method above.
 
 #user_input != 
+#else user_input != user_input.clamp(0,8)
+    #false
